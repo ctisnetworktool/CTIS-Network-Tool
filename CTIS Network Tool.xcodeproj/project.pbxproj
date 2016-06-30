@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C0D88971D231B8700B262D8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D88961D231B8700B262D8 /* FirstViewController.swift */; };
+		0C28A18C1D1B7DF500F888B2 /* Pods_CTIS_Network_Tool.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F870F846EEF26F2B12CC100E /* Pods_CTIS_Network_Tool.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C34DE1A1D246B3B00873B5B /* WhatIsMyIPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34DE191D246B3B00873B5B /* WhatIsMyIPViewController.swift */; };
+		0C34DE1C1D246CF700873B5B /* WhatIsMyIPFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34DE1B1D246CF700873B5B /* WhatIsMyIPFunctions.swift */; };
+		0C34DE201D2473C900873B5B /* SubnetCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34DE1F1D2473C900873B5B /* SubnetCalculatorViewController.swift */; };
+		0C34DE221D2482CC00873B5B /* SubnetCalculatorFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34DE211D2482CC00873B5B /* SubnetCalculatorFunctions.swift */; };
+		0C34DE251D24B0A000873B5B /* C261LecturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34DE241D24B0A000873B5B /* C261LecturesViewController.swift */; };
+		0C34DE291D24B2F400873B5B /* C261ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34DE281D24B2F400873B5B /* C261ExercisesViewController.swift */; };
+		0C34DE2B1D24B34100873B5B /* C261QuizzesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34DE2A1D24B34100873B5B /* C261QuizzesViewController.swift */; };
+		0C5DE3B71D1B469600A703B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DE3B61D1B469600A703B8 /* AppDelegate.swift */; };
+		0C5DE3B91D1B469600A703B8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5DE3B81D1B469600A703B8 /* MainViewController.swift */; };
+		0C5DE3BC1D1B469600A703B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5DE3BA1D1B469600A703B8 /* Main.storyboard */; };
+		0C5DE3BE1D1B469600A703B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5DE3BD1D1B469600A703B8 /* Assets.xcassets */; };
+		0C5DE3C11D1B469600A703B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5DE3BF1D1B469600A703B8 /* LaunchScreen.storyboard */; };
+		0C9A49091D1B497400342472 /* CTIS261.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9A49081D1B497400342472 /* CTIS261.storyboard */; };
+		0C9A49241D1B70D500342472 /* OSILayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9A49231D1B70D500342472 /* OSILayersViewController.swift */; };
+		0C9A49261D1B75D100342472 /* LayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9A49251D1B75D100342472 /* LayerCollectionViewCell.swift */; };
+		0C9A49281D1B75DD00342472 /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9A49271D1B75DD00342472 /* DataCollectionViewCell.swift */; };
+		0CCBA4781D23611100FDEA32 /* CTIS261ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBA4771D23611100FDEA32 /* CTIS261ViewController.swift */; };
+		0CCBA47A1D2361CB00FDEA32 /* C261SlideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBA4791D2361CB00FDEA32 /* C261SlideMenuTableViewController.swift */; };
+		0CCBA47C1D2377EA00FDEA32 /* C261ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBA47B1D2377EA00FDEA32 /* C261ToolsViewController.swift */; };
+		ABF4023DB02A8E490B4D3E47 /* Pods_CTIS_Network_Tool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F870F846EEF26F2B12CC100E /* Pods_CTIS_Network_Tool.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C28A18B1D1B7DE900F888B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0C28A18C1D1B7DF500F888B2 /* Pods_CTIS_Network_Tool.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C0D88961D231B8700B262D8 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0C34DE191D246B3B00873B5B /* WhatIsMyIPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatIsMyIPViewController.swift; sourceTree = "<group>"; };
+		0C34DE1B1D246CF700873B5B /* WhatIsMyIPFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatIsMyIPFunctions.swift; sourceTree = "<group>"; };
+		0C34DE1F1D2473C900873B5B /* SubnetCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubnetCalculatorViewController.swift; sourceTree = "<group>"; };
+		0C34DE211D2482CC00873B5B /* SubnetCalculatorFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubnetCalculatorFunctions.swift; sourceTree = "<group>"; };
+		0C34DE241D24B0A000873B5B /* C261LecturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C261LecturesViewController.swift; sourceTree = "<group>"; };
+		0C34DE281D24B2F400873B5B /* C261ExercisesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C261ExercisesViewController.swift; sourceTree = "<group>"; };
+		0C34DE2A1D24B34100873B5B /* C261QuizzesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C261QuizzesViewController.swift; sourceTree = "<group>"; };
+		0C5DE3B31D1B469600A703B8 /* CTIS Network Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CTIS Network Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5DE3B61D1B469600A703B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C5DE3B81D1B469600A703B8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0C5DE3BB1D1B469600A703B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C5DE3BD1D1B469600A703B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C5DE3C01D1B469600A703B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C5DE3C21D1B469600A703B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9A49081D1B497400342472 /* CTIS261.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CTIS261.storyboard; sourceTree = "<group>"; };
+		0C9A49231D1B70D500342472 /* OSILayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSILayersViewController.swift; sourceTree = "<group>"; };
+		0C9A49251D1B75D100342472 /* LayerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		0C9A49271D1B75DD00342472 /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		0CCBA4771D23611100FDEA32 /* CTIS261ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTIS261ViewController.swift; sourceTree = "<group>"; };
+		0CCBA4791D2361CB00FDEA32 /* C261SlideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C261SlideMenuTableViewController.swift; sourceTree = "<group>"; };
+		0CCBA47B1D2377EA00FDEA32 /* C261ToolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C261ToolsViewController.swift; sourceTree = "<group>"; };
+		3FB88FD4DB92BE906822EB7A /* Pods-CTIS Network Tool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTIS Network Tool.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTIS Network Tool/Pods-CTIS Network Tool.release.xcconfig"; sourceTree = "<group>"; };
+		BA9CBB824EE8648EB5D14CB3 /* Pods-CTIS Network Tool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTIS Network Tool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTIS Network Tool/Pods-CTIS Network Tool.debug.xcconfig"; sourceTree = "<group>"; };
+		F870F846EEF26F2B12CC100E /* Pods_CTIS_Network_Tool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTIS_Network_Tool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C5DE3B01D1B469600A703B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4023DB02A8E490B4D3E47 /* Pods_CTIS_Network_Tool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C28A18D1D1B886700F888B2 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				0C34DE281D24B2F400873B5B /* C261ExercisesViewController.swift */,
+				0C9A49221D1B70B900342472 /* OSILayers */,
+			);
+			name = Exercises;
+			sourceTree = "<group>";
+		};
+		0C34DE231D24B08C00873B5B /* Lectures */ = {
+			isa = PBXGroup;
+			children = (
+				0C34DE241D24B0A000873B5B /* C261LecturesViewController.swift */,
+			);
+			name = Lectures;
+			sourceTree = "<group>";
+		};
+		0C34DE271D24B2A500873B5B /* Quizzes */ = {
+			isa = PBXGroup;
+			children = (
+				0C34DE2A1D24B34100873B5B /* C261QuizzesViewController.swift */,
+			);
+			name = Quizzes;
+			sourceTree = "<group>";
+		};
+		0C5DE3AA1D1B469600A703B8 = {
+			isa = PBXGroup;
+			children = (
+				0C5DE3B51D1B469600A703B8 /* CTIS Network Tool */,
+				0C5DE3B41D1B469600A703B8 /* Products */,
+				F161F39B089347CCA8620BE9 /* Pods */,
+				E3C88E601487F9C480C63F9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C5DE3B41D1B469600A703B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C5DE3B31D1B469600A703B8 /* CTIS Network Tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C5DE3B51D1B469600A703B8 /* CTIS Network Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0C5DE3B61D1B469600A703B8 /* AppDelegate.swift */,
+				0C5DE3B81D1B469600A703B8 /* MainViewController.swift */,
+				0C0D88961D231B8700B262D8 /* FirstViewController.swift */,
+				0C5DE3BA1D1B469600A703B8 /* Main.storyboard */,
+				0C9A49051D1B493600342472 /* CTIS261 */,
+				0C5DE3BD1D1B469600A703B8 /* Assets.xcassets */,
+				0C5DE3BF1D1B469600A703B8 /* LaunchScreen.storyboard */,
+				0C5DE3C21D1B469600A703B8 /* Info.plist */,
+			);
+			path = "CTIS Network Tool";
+			sourceTree = "<group>";
+		};
+		0C9A49051D1B493600342472 /* CTIS261 */ = {
+			isa = PBXGroup;
+			children = (
+				0C9A49081D1B497400342472 /* CTIS261.storyboard */,
+				0CCBA4791D2361CB00FDEA32 /* C261SlideMenuTableViewController.swift */,
+				0CCBA4771D23611100FDEA32 /* CTIS261ViewController.swift */,
+				0C34DE231D24B08C00873B5B /* Lectures */,
+				0C9A490F1D1B524400342472 /* Tools */,
+				0C28A18D1D1B886700F888B2 /* Exercises */,
+				0C34DE271D24B2A500873B5B /* Quizzes */,
+			);
+			name = CTIS261;
+			sourceTree = "<group>";
+		};
+		0C9A490A1D1B50A800342472 /* VLSM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = VLSM;
+			sourceTree = "<group>";
+		};
+		0C9A490F1D1B524400342472 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0CCBA47B1D2377EA00FDEA32 /* C261ToolsViewController.swift */,
+				0CCBA47F1D2381A700FDEA32 /* WhatIsMyIP */,
+				0CCBA47D1D237D9F00FDEA32 /* SubnetCalculator */,
+				0CCBA47E1D237F2700FDEA32 /* ASCIITranslator */,
+				0C9A490A1D1B50A800342472 /* VLSM */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		0C9A49221D1B70B900342472 /* OSILayers */ = {
+			isa = PBXGroup;
+			children = (
+				0C9A49231D1B70D500342472 /* OSILayersViewController.swift */,
+				0C9A49251D1B75D100342472 /* LayerCollectionViewCell.swift */,
+				0C9A49271D1B75DD00342472 /* DataCollectionViewCell.swift */,
+			);
+			name = OSILayers;
+			sourceTree = "<group>";
+		};
+		0CCBA47D1D237D9F00FDEA32 /* SubnetCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				0C34DE1F1D2473C900873B5B /* SubnetCalculatorViewController.swift */,
+				0C34DE211D2482CC00873B5B /* SubnetCalculatorFunctions.swift */,
+			);
+			name = SubnetCalculator;
+			sourceTree = "<group>";
+		};
+		0CCBA47E1D237F2700FDEA32 /* ASCIITranslator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ASCIITranslator;
+			sourceTree = "<group>";
+		};
+		0CCBA47F1D2381A700FDEA32 /* WhatIsMyIP */ = {
+			isa = PBXGroup;
+			children = (
+				0C34DE191D246B3B00873B5B /* WhatIsMyIPViewController.swift */,
+				0C34DE1B1D246CF700873B5B /* WhatIsMyIPFunctions.swift */,
+			);
+			name = WhatIsMyIP;
+			sourceTree = "<group>";
+		};
+		E3C88E601487F9C480C63F9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F870F846EEF26F2B12CC100E /* Pods_CTIS_Network_Tool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F161F39B089347CCA8620BE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA9CBB824EE8648EB5D14CB3 /* Pods-CTIS Network Tool.debug.xcconfig */,
+				3FB88FD4DB92BE906822EB7A /* Pods-CTIS Network Tool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C5DE3B21D1B469600A703B8 /* CTIS Network Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5DE3C51D1B469600A703B8 /* Build configuration list for PBXNativeTarget "CTIS Network Tool" */;
+			buildPhases = (
+				6214C2A94971BBF3455F31FB /* [CP] Check Pods Manifest.lock */,
+				0C5DE3AF1D1B469600A703B8 /* Sources */,
+				0C5DE3B01D1B469600A703B8 /* Frameworks */,
+				0C5DE3B11D1B469600A703B8 /* Resources */,
+				B62145B41B4C7BB3E5BD6482 /* [CP] Embed Pods Frameworks */,
+				765565F4B0B106E1FCA226FB /* [CP] Copy Pods Resources */,
+				0C28A18B1D1B7DE900F888B2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CTIS Network Tool";
+			productName = "CTIS Network Tool";
+			productReference = 0C5DE3B31D1B469600A703B8 /* CTIS Network Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C5DE3AB1D1B469600A703B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TEAM2;
+				TargetAttributes = {
+					0C5DE3B21D1B469600A703B8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FG22MCAD3B;
+					};
+				};
+			};
+			buildConfigurationList = 0C5DE3AE1D1B469600A703B8 /* Build configuration list for PBXProject "CTIS Network Tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C5DE3AA1D1B469600A703B8;
+			productRefGroup = 0C5DE3B41D1B469600A703B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C5DE3B21D1B469600A703B8 /* CTIS Network Tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C5DE3B11D1B469600A703B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5DE3C11D1B469600A703B8 /* LaunchScreen.storyboard in Resources */,
+				0C9A49091D1B497400342472 /* CTIS261.storyboard in Resources */,
+				0C5DE3BE1D1B469600A703B8 /* Assets.xcassets in Resources */,
+				0C5DE3BC1D1B469600A703B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6214C2A94971BBF3455F31FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		765565F4B0B106E1FCA226FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTIS Network Tool/Pods-CTIS Network Tool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B62145B41B4C7BB3E5BD6482 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTIS Network Tool/Pods-CTIS Network Tool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C5DE3AF1D1B469600A703B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9A49281D1B75DD00342472 /* DataCollectionViewCell.swift in Sources */,
+				0C34DE1A1D246B3B00873B5B /* WhatIsMyIPViewController.swift in Sources */,
+				0CCBA4781D23611100FDEA32 /* CTIS261ViewController.swift in Sources */,
+				0C5DE3B91D1B469600A703B8 /* MainViewController.swift in Sources */,
+				0C0D88971D231B8700B262D8 /* FirstViewController.swift in Sources */,
+				0C5DE3B71D1B469600A703B8 /* AppDelegate.swift in Sources */,
+				0C34DE251D24B0A000873B5B /* C261LecturesViewController.swift in Sources */,
+				0C34DE2B1D24B34100873B5B /* C261QuizzesViewController.swift in Sources */,
+				0CCBA47C1D2377EA00FDEA32 /* C261ToolsViewController.swift in Sources */,
+				0CCBA47A1D2361CB00FDEA32 /* C261SlideMenuTableViewController.swift in Sources */,
+				0C34DE201D2473C900873B5B /* SubnetCalculatorViewController.swift in Sources */,
+				0C9A49261D1B75D100342472 /* LayerCollectionViewCell.swift in Sources */,
+				0C9A49241D1B70D500342472 /* OSILayersViewController.swift in Sources */,
+				0C34DE221D2482CC00873B5B /* SubnetCalculatorFunctions.swift in Sources */,
+				0C34DE291D24B2F400873B5B /* C261ExercisesViewController.swift in Sources */,
+				0C34DE1C1D246CF700873B5B /* WhatIsMyIPFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C5DE3BA1D1B469600A703B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5DE3BB1D1B469600A703B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C5DE3BF1D1B469600A703B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C5DE3C01D1B469600A703B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C5DE3C31D1B469600A703B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C5DE3C41D1B469600A703B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C5DE3C61D1B469600A703B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9CBB824EE8648EB5D14CB3 /* Pods-CTIS Network Tool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CTIS Network Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ctis456.team2.CTIS-Network-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C5DE3C71D1B469600A703B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB88FD4DB92BE906822EB7A /* Pods-CTIS Network Tool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CTIS Network Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ctis456.team2.CTIS-Network-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C5DE3AE1D1B469600A703B8 /* Build configuration list for PBXProject "CTIS Network Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5DE3C31D1B469600A703B8 /* Debug */,
+				0C5DE3C41D1B469600A703B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5DE3C51D1B469600A703B8 /* Build configuration list for PBXNativeTarget "CTIS Network Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5DE3C61D1B469600A703B8 /* Debug */,
+				0C5DE3C71D1B469600A703B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C5DE3AB1D1B469600A703B8 /* Project object */;
+}
